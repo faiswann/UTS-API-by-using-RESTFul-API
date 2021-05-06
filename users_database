@@ -1,0 +1,13 @@
+CREATE DATABASE users_database 
+
+CREATE TABLE `employees` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `last_name` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  `email_address` varchar(255) CHARACTER SET latin1 DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into employees (id, first_name, last_name, email_address) values (1, 'nimuhammad', 'wan', 'fais.wan.786@gmail.com');
+insert into employees (id, first_name, last_name, email_address) values (2, 'dada', 'fais', 'da_2012@email.com');
+insert into employees (id, first_name, last_name, email_address) values (3, 'wanface', 'gg', 'gg_77820@gmai;.com');
